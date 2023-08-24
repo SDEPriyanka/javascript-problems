@@ -1,10 +1,3 @@
-// write a program to get the list of people who having hobby of sports
-// write a program to get age>30 people
-
-// -> must use functions 
-// -> use below object
-
-
 
 var students = [{
     "name": "John",

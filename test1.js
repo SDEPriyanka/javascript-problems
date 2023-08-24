@@ -1,4 +1,8 @@
+// write a program to get the list of people who having hobby of sports
+// write a program to get age>30 people
 
+// -> must use functions 
+// -> use below object
 var students = [{
     "name": "John",
     "age": 22,
@@ -29,3 +33,17 @@ var students = [{
     },
     "class" : ["React"]
 }]
+
+function studentsAge(eAge){
+
+const age = students.filter((item) => {
+	 	 return item.age > eAge
+	 })
+	
+console.log("student age grater than 30 is" , age);
+
+
+}
+studentsAge(30);
+
+
